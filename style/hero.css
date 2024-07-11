@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container_hero {
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+h1, h2, p {
+    color: var(--bcp);
+}
+span {
+    color: var(--btn-color);
+}
+.text_hero_1 {
+    font-size: 32px;
+}
+.text_hero_2 {
+    font-size: 40px;
+}
+.p_hero {
+    margin-bottom: 24px;
+}
+.hero_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container_btn_hero {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.btn_saber_mais {
+    color: var(--btn-color);
+    border: solid 2px var(--btn-color);
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+.btn_saber_mais:hover{
+    transition: all .4s ease;
+    background-color: var(--btn-color);
+    color: var(--bcp);
+}
+#img_hero {
+    width: 560px ;
+}

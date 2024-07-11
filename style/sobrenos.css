@@ -1,0 +1,47 @@
+.sobre_nos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100vw;
+    height: 400px;
+    background-color: var(--bcp);
+}
+
+
+.card_dash {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    top: 600px;
+    margin: auto 10%;
+    position: absolute;
+    width: 1200px;
+    height: 140px;
+    background-color: var(--bcp);
+    box-shadow: var(--shadow);
+    border-radius: 20px;
+}
+.total_clientes_base {
+    display: flex;
+    align-items: center;
+
+}
+.p_clientes_base {
+    font-size: 28px;
+    color: #000000;
+}
+.line_base {
+    height: 2px;
+    width: 80px;
+    transform: rotate(90deg);
+    background-color: #000000;
+}
+.h4_clientes_base {
+    font-size: 24px;
+    font-weight: 500;
+}
+.h4_ativos {
+    font-size: 24px;
+}
