@@ -7,9 +7,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (btnMenu.classList.contains('bx-menu-alt-right')) {
             btnMenu.classList.remove('bx-menu-alt-right');
             btnMenu.classList.add('bx-menu'); // Novo Item
+            btnMenu.style.color = "#FF6400";
         } else {
             btnMenu.classList.remove('bx-menu');
             btnMenu.classList.add('bx-menu-alt-right'); // Retornar ao ícone original
+            btnMenu.style.color = "#000000";
         }
         
         // Alternar a visibilidade do nav com efeito de entrada
