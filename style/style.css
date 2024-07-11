@@ -34,3 +34,9 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    grid-area: 2;
+}
+footer {
+    grid-area: 3;
+}

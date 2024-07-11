@@ -1,23 +1,20 @@
 .sobre_nos {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
     justify-content: center;
     margin-top: 100px;
     width: 100vw;
-    height: 400px;
+    height: max-content;
     background-color: var(--bcp);
 }
-
-
 .card_dash {
     padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     top: 600px;
-    margin: auto 10%;
+    margin: auto 18%;
     position: absolute;
-    width: 1200px;
+    width: 1000px;
     height: 140px;
     background-color: var(--bcp);
     box-shadow: var(--shadow);
@@ -26,6 +23,7 @@
 .total_clientes_base {
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 .p_clientes_base {
@@ -44,4 +42,45 @@
 }
 .h4_ativos {
     font-size: 24px;
+}
+.taxa_satisfacao {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.percent {
+    width: max-content;
+}
+
+.value {
+    color: #0B5BC6;
+    font-size: 40px;
+}
+.cidades {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+#img_sobre {
+    margin-top: -60px;
+    width: 700px;
+}
+.inform_sobre {
+    display: flex;
+    align-items: center;
+}
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+h2.text_sobre {
+    font-size: 38px;
+    color: var(--btn-color);
+}
+h3.text_sobre_conectamos {
+    font-size: 20px;
+}
+p.p_sobre {
+    width: 40ch;
+    color: #000000;
 }
