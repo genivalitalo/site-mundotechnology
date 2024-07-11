@@ -5,12 +5,13 @@
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: var(--bcp);
-    width: 1460px;
+    width: max-content;
     height: max-content;
     border-radius: var(--border_radius);
     box-shadow: var(--shadow);
     padding: 10px 20px;
     transition: all .4s ease;
+    gap: 200px;
 }
 #logo {
     width: 160px;
@@ -50,57 +51,103 @@ ul li {
     background-color: var(--btn-color-hover);
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1500px) {
     .header {
         transition: all .4s ease;
-        width: 1200px;
+        gap: 140px;
     }
 }
-@media (max-width: 885px) {
+@media (max-width: 1400px) {
     .header {
         transition: all .4s ease;
-        width: 820px;
+        gap: 100px;
+    }
+}
+@media (max-width: 1400px) {
+    .header {
+        transition: all .4s ease;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .header {
+        transition: all .4s ease;
+        gap: 20px;
+    }
+}
+@media (max-width: 1150px) {
+    .header {
+        transition: all .4s ease;
+        gap: 480px;
     }
     .btn_contato {
         display: none;
     }
     .container_links {
         transition: all .4s ease;
-        gap: 30px;
+        display: none;
+    }
+
+    #btn_menu {
+    display: block;
+    }
+
+}
+
+
+@media (max-width: 771px) {
+    .header {
+        transition: all .4s ease;
+        gap: 400px;
+    }
+}
+@media (max-width: 640px) {
+    .header {
+        transition: all .4s ease;
+        gap: 300px;
+    }
+}
+@media (max-width: 540px) {
+    .header {
+        transition: all .4s ease;
+        gap: 240px;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        transition: all .4s ease;
+        gap: 180px;
+    }
+}
+@media (max-width: 430px) {
+    .header {
+        transition: all .4s ease;
+        gap: 140px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .header {
         transition: all .4s ease;
-        width: 700px;
-    }
-    .container_links {
-        transition: all .4s ease;
-        gap: 14px;
+        gap: 100px;
     }
 }
-@media (max-width: 428px) {
+@media (max-width: 340px) {
     .header {
         transition: all .4s ease;
-        width: 360px;
-    }
-    .container_links {
-        display: none;
-    }
-    #btn_menu {
-        display: block;
+        gap: 80px;
     }
 }
-@media (max-width: 391px) {
+@media (max-width: 310px) {
     .header {
         transition: all .4s ease;
-        width: 320px;
+        gap: 40px;
     }
 }
-@media (max-width: 361px) {
+@media (max-width: 280px) {
     .header {
         transition: all .4s ease;
-        width: 300px;
+        gap: 20px;
     }
 }
