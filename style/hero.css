@@ -106,19 +106,4 @@ span {
         justify-content: center;
     }
 }
-@media (max-width: 641px) {
-    #img_hero {
-        transition: all .4s ease;
-        display: none;
-    }
-    .text_hero_1 {
-        transition: all .4s ease;
-        font-size: 24px;
-        text-align: center;
-    }
-    .text_hero_2 {
-        transition: all .4s ease;
-        font-size: 32px;
-        text-align: center;
-    }
-}
+

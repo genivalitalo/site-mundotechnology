@@ -111,40 +111,6 @@ p.p_sobre {
         font-size: 18px;
     }
 }
-@media (max-width: 641px) {
-    .card_dash {
-        transition: all .4s ease;
-        flex-direction: column;
-        width: max-content;
-        height: max-content;
-        justify-content: center;
-        gap: 20px;
-    }
-    .taxa_satisfacao {
-        transition: all .4s ease;
-        text-align: center;
-        flex-direction: column;
-    }
-    .cidades {
-        transition: all .4s ease;
-        text-align: center;
-        flex-direction: column;
-    }
-    .total_clientes_base {
-        transition: all .4s ease;
-        text-align: center;
-        flex-direction: column;
-    }
-    .line_base {
-        transition: all .4s ease;
-        transform: rotate(0deg);
-    }
-    .p_clientes_base {
-        transition: all .4s ease;
-        font-size: 24px;
-        color: #0B5BC6;
-    }
-}
 
 @media (max-width: 360px) {
     .card_dash {
