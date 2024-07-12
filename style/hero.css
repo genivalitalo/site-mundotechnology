@@ -106,7 +106,7 @@ span {
         justify-content: center;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 641px) {
     #img_hero {
         transition: all .4s ease;
         display: none;
