@@ -1,24 +1,26 @@
 .sobre_nos {
     display: grid;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 0px;
     width: 100vw;
     height: max-content;
     background-color: var(--bcp);
 }
 .card_dash {
+    margin: 0 auto;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 600px;
-    margin: auto 18%;
-    position: absolute;
+    margin-top: 100px;
+    margin-bottom: -80px;
     width: 1000px;
     height: 140px;
     background-color: var(--bcp);
     box-shadow: var(--shadow);
     border-radius: 20px;
+    z-index: 1;
+    transition: all .4s ease;
 }
 .total_clientes_base {
     display: flex;
@@ -83,4 +85,33 @@ h3.text_sobre_conectamos {
 p.p_sobre {
     width: 40ch;
     color: #000000;
+}
+
+@media (max-width: 1000px) {
+    .card_dash {
+        transition: all .4s ease;
+        width: 900px;
+    }
+}
+@media (max-width: 900px) {
+    .card_dash {
+        transition: all .4s ease;
+        width: 700px;
+    }
+    .p_clientes_base {
+        font-size: 20px;
+    }
+    .value {
+        font-size: 28px;
+    }
+    .h4_clientes_base {
+        font-size: 18px;
+    }
+    .h4_ativos {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    
 }

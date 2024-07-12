@@ -10,6 +10,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    transition: all .4s ease;
 }
 h1, h2, p {
     color: var(--bcp);
@@ -18,12 +19,15 @@ span {
     color: var(--btn-color);
 }
 .text_hero_1 {
+    transition: all .4s ease;
     font-size: 32px;
 }
 .text_hero_2 {
+    transition: all .4s ease;
     font-size: 40px;
 }
 .p_hero {
+    transition: all .4s ease;
     margin-bottom: 24px;
 }
 .hero_info {
@@ -35,6 +39,12 @@ span {
     display: flex;
     align-items: center;
     gap: 14px;
+}
+.btn_contato_1 {
+    padding: 8px 16px;
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    color: var(--bcp);
 }
 .btn_saber_mais {
     color: var(--btn-color);
@@ -50,4 +60,49 @@ span {
 }
 #img_hero {
     width: 560px ;
+}
+@media (max-width: 1200px) {
+    .container_hero {
+        transition: all .4s ease;
+        gap: 0px;
+    }
+    .text_hero_1 {
+        transition: all .4s ease;
+        font-size: 24px;
+    }
+    .text_hero_2 {
+        transition: all .4s ease;
+        font-size: 28px;
+    }
+    .p_hero {
+        transition: all .4s ease;
+        margin-bottom: 18px;
+    }
+}
+@media (max-width: 1150px) {
+    .container_hero {
+        transition: all .4s ease;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text_hero_1 {
+        transition: all .4s ease;
+        font-size: 32px;
+        text-align: center;
+    }
+    .text_hero_2 {
+        transition: all .4s ease;
+        font-size: 40px;
+        text-align: center;
+    }
+    .p_hero {
+        transition: all .4s ease;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) {
+    .container_btn_hero {
+        justify-content: center;
+    }
 }
