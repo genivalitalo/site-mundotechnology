@@ -1,6 +1,8 @@
 @import "header.css";
 @import "hero.css";
 @import "sobrenos.css";
+@import "solucoes.css";
+@import "feedback.css";
 
 :root {
     --bcp: #ffffff;

@@ -103,7 +103,35 @@ span {
 }
 @media (max-width: 360px) {
     .container_btn_hero {
+        flex-direction: column;
         justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    #img_hero {
+        display: none;
+    }
+    .container_hero {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .text_hero_1 {
+        transition: all .4s ease;
+        font-size: 24px;
+        text-align: center;
+    }
+    .text_hero_2 {
+        transition: all .4s ease;
+        font-size: 20px;
+        text-align: center;
+    }
+    .p_hero {
+        transition: all .4s ease;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 18px;
+        width: 24ch;
+        margin: 0 auto;
     }
 }
 

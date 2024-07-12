@@ -1,0 +1,27 @@
+.container_solucoes {
+    display: grid;
+    justify-content: center;
+}
+.text_solucoes {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+.container_card_solucoes {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.card_solucoes {
+    width: 400px;
+    height: 400px;
+    background-color: var(--bcp);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+    transition: all .4s ease;
+}
+.card_solucoes:hover {
+    transition: all .4s ease;
+    scale: 1.05;
+}

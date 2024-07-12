@@ -64,6 +64,7 @@
     gap: 14px;
 }
 #img_sobre {
+    margin: 0 auto;
     margin-top: -60px;
     width: 700px;
 }
@@ -73,7 +74,8 @@
 }
 .sobre {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    gap: 14px;
 }
 h2.text_sobre {
     font-size: 38px;
@@ -145,4 +147,87 @@ p.p_sobre {
         font-size: 24px;
         color: #0B5BC6;
     }
+    .sobre_nos {
+        width: 100dvh;
+    }
+    .card_dash {
+        display: none;
+    }
+}
+.inform_sobre {
+    display: grid;
+}
+.sobre {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+.container_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.valores {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 14px;
+}
+.card_visao {
+    padding: 14px;
+    width: 180px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    border: solid 1px #e8e8e8;
+    transition: all .4s ease;
+}
+.card_missao {
+    padding: 14px;
+    width: 180px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    border: solid 1px #e8e8e8;
+    transition: all .4s ease;
+
+}
+.card_valores {
+    padding: 14px;
+    width: 180px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    border: solid 1px #e8e8e8;
+    transition: all .4s ease;
+
+}
+.card_valores:hover {
+    transition: all .4s ease;
+    scale: 1.05;
+}
+.card_missao:hover {
+    transition: all .4s ease;
+    scale: 1.05;
+}
+.card_visao:hover {
+    transition: all .4s ease;
+    scale: 1.05;
+}
+.header_card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+#icon_card_valores {
+    padding: 2px;
+    width: 30px;
+}
+.descripton_card_valores {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 14px;
 }

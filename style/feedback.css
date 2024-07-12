@@ -1,0 +1,70 @@
+.feedbacks {
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: var(--bcp);
+    width: 100vw;
+    height: 400px;
+    padding-bottom: 60px;
+}
+.text_feedback {
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 32px;
+    text-align: center;
+    width: 20ch;
+    color: var(--btn-color);
+}
+.container_feedback {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.card_feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    background-color: var(--bcp);
+    box-shadow: var(--shadow);
+    padding: 14px;
+    border-radius: 14px;
+    width: 320px;
+    height: max-content;
+}
+.header_card_feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.org_nomes_feedback {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+#ft_cliente {
+    width: 44px;
+    border-radius: 50%;
+}
+.nome_empresa_cliente {
+    font-size: 14px;
+    color: #000;
+}
+.value_avaliacao {
+    font-size: 14px;
+    color: #000;
+}
+.avaliacao_cliente {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#icon_avaliacao {
+    font-size: 18px;
+    color: #f1ed23;
+}
+.descricao_cliente {
+    font-size: 14px;
+    color: #000;
+}
