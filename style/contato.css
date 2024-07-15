@@ -1,0 +1,70 @@
+.container_contato {
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+
+    
+    
+}
+.infor_contato {
+    margin: 0 auto;
+    gap: 14px;
+    padding: 24px;
+    height: max-content;
+    width: max-content;
+}
+.form {
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+}
+.text_contato {
+    color: var(--btn-color);
+}
+.p_contato {
+    width: 50ch;
+    color: #000;
+}
+.info2_contato {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.horario {
+    width: 540px;
+    height: 60px;
+    border: solid 2px #A9A9A9;
+    border-radius: 10px;
+}
+.telefone {
+    width: 540px;
+    height: 60px;
+    border: solid 2px #A9A9A9;
+    border-radius: 10px;
+}
+.email {
+    width: 540px;
+    height: 60px;
+    border: solid 2px #A9A9A9;
+    border-radius: 10px;
+}
+#form_contato {
+    box-shadow: var(--shadow);
+    padding: 40px;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 14px;
+    border-radius: 14px;
+}
+#form_contato>input {
+    background-color: #F1F1F1;
+    box-shadow: none;
+}

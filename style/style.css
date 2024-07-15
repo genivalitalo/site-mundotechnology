@@ -3,6 +3,9 @@
 @import "sobrenos.css";
 @import "solucoes.css";
 @import "feedback.css";
+@import "newslater.css";
+@import "contato.css";
+@import "footer.css";
 
 :root {
     --bcp: #ffffff;
