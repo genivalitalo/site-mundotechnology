@@ -101,7 +101,7 @@ span {
         text-align: center;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 391px) {
     .container_btn_hero {
         flex-direction: column;
         justify-content: center;
@@ -112,7 +112,7 @@ span {
         display: none;
     }
     .container_hero {
-        margin-top: 0px;
+        margin-top: 20px;
         text-align: center;
     }
     .text_hero_1 {
@@ -130,7 +130,7 @@ span {
         margin-bottom: 10px;
         text-align: center;
         font-size: 18px;
-        width: 24ch;
+        width: 28ch;
         margin: 0 auto;
     }
 }

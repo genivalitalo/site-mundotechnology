@@ -25,3 +25,17 @@
     transition: all .4s ease;
     scale: 1.05;
 }
+
+@media (max-width: 391px) {
+    .container_card_solucoes {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .card_solucoes {
+        width: 300px;
+        height: 300px;
+    }
+    .text_solucoes {
+        font-size: 28px;
+    }
+}

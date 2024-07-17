@@ -89,71 +89,6 @@ p.p_sobre {
     color: #000000;
 }
 
-@media (max-width: 1000px) {
-    .card_dash {
-        transition: all .4s ease;
-        width: 900px;
-    }
-}
-@media (max-width: 900px) {
-    .card_dash {
-        transition: all .4s ease;
-        width: 700px;
-    }
-    .p_clientes_base {
-        font-size: 20px;
-    }
-    .value {
-        font-size: 28px;
-    }
-    .h4_clientes_base {
-        font-size: 18px;
-    }
-    .h4_ativos {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 360px) {
-    .card_dash {
-        transition: all .4s ease;
-        flex-direction: column;
-        width: max-content;
-        height: max-content;
-        justify-content: center;
-        gap: 20px;
-    }
-    .taxa_satisfacao {
-        transition: all .4s ease;
-        text-align: center;
-        flex-direction: column;
-    }
-    .cidades {
-        transition: all .4s ease;
-        text-align: center;
-        flex-direction: column;
-    }
-    .total_clientes_base {
-        transition: all .4s ease;
-        text-align: center;
-        flex-direction: column;
-    }
-    .line_base {
-        transition: all .4s ease;
-        transform: rotate(0deg);
-    }
-    .p_clientes_base {
-        transition: all .4s ease;
-        font-size: 24px;
-        color: #0B5BC6;
-    }
-    .sobre_nos {
-        width: 100dvh;
-    }
-    .card_dash {
-        display: none;
-    }
-}
 .inform_sobre {
     display: grid;
 }
@@ -230,4 +165,89 @@ p.p_sobre {
     margin-top: 10px;
     color: #000000;
     font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+    .card_dash {
+        transition: all .4s ease;
+        width: 900px;
+    }
+}
+@media (max-width: 900px) {
+    .card_dash {
+        transition: all .4s ease;
+        width: 700px;
+    }
+    .p_clientes_base {
+        font-size: 20px;
+    }
+    .value {
+        font-size: 28px;
+    }
+    .h4_clientes_base {
+        font-size: 18px;
+    }
+    .h4_ativos {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 391px) {
+    .sobre_nos {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #img_sobre {
+        text-align: center;
+        width: 320px;
+    }
+    .card_dash {
+        display: none;
+    }
+    .sobre {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .p_sobre {
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .valores {
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .card_visao {
+        width: 300px;
+    }
+    .card_missao {
+        width: 300px;
+    }
+    .card_valores {
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 361px) {
+    .p_sobre {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    h2.text_sobre {
+        font-size: 30px;
+    }
+    h3.text_sobre_conectamos {
+        font-size: 18px;
+    }
+    p.p_sobre {
+        width: 40ch;
+        color: #000000;
+    }
+    
 }

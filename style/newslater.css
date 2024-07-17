@@ -46,3 +46,25 @@ input {
     transition: all .4s ease;
     background-color: var(--btn-color-hover);
 }
+
+@media (max-width: 391px) {
+    .container_newslater {
+        width: 100%;
+    }
+    .text_newslater {
+        margin: auto;
+        width: 24ch;
+        font-size: 24px;
+    }
+    #form_newslater {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    input {
+        width: 300px;
+    }
+    .btn_form {
+        width: 300px;
+    }
+}

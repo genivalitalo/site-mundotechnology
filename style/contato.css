@@ -5,10 +5,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    margin: 0 auto;
-
-    
-    
+    margin: 0 auto;   
 }
 .infor_contato {
     margin: 0 auto;
@@ -26,8 +23,10 @@
     color: var(--btn-color);
 }
 .p_contato {
+    margin-top: 10px;
     width: 50ch;
     color: #000;
+    margin-bottom: 24px;
 }
 .info2_contato {
     margin: 0 auto;
@@ -67,4 +66,44 @@
 #form_contato>input {
     background-color: #F1F1F1;
     box-shadow: none;
+}
+
+@media (max-width: 391px) {
+    .container_contato {
+        margin: 0 auto;
+        width: 100%;
+        grid-template-columns: 340px;
+        justify-content: center;
+        align-items: center;
+    }
+    .infor_contato {
+        width: 100%; 
+    }
+    .text_contato {
+        font-size: 28px;
+        text-align: center;
+    }
+    .p_contato {
+        text-align: center;
+        width: 28ch;
+    }
+    .horario {
+        width: 100%;
+    }
+    .telefone {
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+    }
+    #form_contato {
+        padding: 20px;
+        width: 100%;
+    }
+    #form_contato>input {
+        width: 100%;
+    }
+    #form_contato>button {
+        width: 100%;
+    }
 }
